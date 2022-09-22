@@ -1,2 +1,10 @@
-# professional-portfoilo
-A repository used to build a webpage that acts as a professional portfolio.  It will contain links to all of my work, information about me for employers and contact information
+<h1 align=center><strong>Personal Portfolio</strong><h1>
+
+<p>
+  &ensp;&ensp;<span style="font-size: 16px;">
+  This webpage showcases my personal portfolio.  Within it you will find a short section about myself and my work, links to my online repository and deployed websites and how to contact me if you wish to do so.  
+  </span> 
+</p>
+
+
+
