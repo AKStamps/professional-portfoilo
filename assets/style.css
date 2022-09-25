@@ -26,6 +26,10 @@ header img {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.navbar li a {
+    color: yellow
+}
+
 .navbar li a:hover {
     background-color: white;
     color: black;
