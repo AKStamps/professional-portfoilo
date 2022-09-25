@@ -42,7 +42,25 @@ h1 {
     width: 250px;
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
+.portfolio h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-right: 75px;
+}
+
+.portfolio h3 {
+    font-size: 20px;
+    
+
+
+}
     
 
 
