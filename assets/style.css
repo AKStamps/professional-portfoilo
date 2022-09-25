@@ -26,6 +26,11 @@ header img {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.navbar li a:hover {
+    background-color: white;
+    color: black;
+}
+
 h1 {
     align-self: center;
     font-size: 40px;
