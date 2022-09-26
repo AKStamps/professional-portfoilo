@@ -103,7 +103,6 @@ h1 {
     font-size: 26px;
     text-align: center;
     text-decoration: underline;
-    text-align: center;
 }
  
 .portfolio-image-2 {
@@ -137,4 +136,14 @@ h1 {
 .contact-me ul {
     font-size: 22px;
 }
-    
+  
+.hide {
+    display: none;
+}
+
+.phone:hover + .hide {
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+}
