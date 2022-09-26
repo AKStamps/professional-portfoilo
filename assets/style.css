@@ -9,6 +9,7 @@ main {
 }
 header {
     background-color: rgb(30, 112, 162);
+    background-size: cover;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -77,13 +78,14 @@ h1 {
 } 
 
 .portfolio-image-1 img {
-    width: 500px;
     margin-right: 5px;
     margin-top: 8px;
     border-color: black;
     border-radius: 20px;
     border-width: 5px;
     border-style: solid;
+    object-fit: contain;
+    width: 100%;
 }
 
 .portfolio-image-1 figcaption {
@@ -94,7 +96,7 @@ h1 {
 .my-work h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
-    margin-left: 60px;
+    margin-left: 50px;
     font-size: 32px;
     text-align: center;
 }
@@ -103,16 +105,16 @@ h1 {
     font-size: 26px;
     text-align: center;
     text-decoration: underline;
+    margin-right: 10px;
 }
  
 .portfolio-image-2 {
     font-size: 22px;
-    text-align: left;
+    text-align: center;
 }
 
 .portfolio-image-2 figcaption {
     margin-bottom: 14px;
-    text-align: center;
 }
 
 .portfolio-image-2 img {
@@ -120,6 +122,8 @@ h1 {
     border-width: 5px;
     border-color: black;
     border-radius: 20px;
+    width: 100%;
+    object-fit: contain;
 }
 
 .contact-me {
@@ -147,3 +151,27 @@ h1 {
     font-size: 22px;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 667px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+   
+    .my-work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    }
+
