@@ -5,6 +5,7 @@
 main {
     background-color: lightseagreen;
     padding-top: 8px;
+    background-size: cover;
 }
 header {
     background-color: rgb(30, 112, 162);
@@ -50,17 +51,20 @@ h1 {
     display: block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: underline;
-    margin-left: 60px;
+    margin-left: 45px;
+    text-align: left;
 }
 
 .about-p-1 {
-    text-indent: 10px;
-    width: 500px;
+    text-indent: 15px;
+    width: 250px;
+    margin-left: 15px;
 }
 
 .about-p-2 {
-    text-indent: 10px;
-    width: 500px;
+    text-indent: 15px;
+    width: 250px;
+    margin-left: 15px;
 }
 
 .my-work {
