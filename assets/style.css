@@ -173,5 +173,10 @@ h1 {
         align-items: center;
         width: 100%;
     }
+
+    .contact-me ul li {
+        font-size: 16px;
+        width: 90%;
+    }
     }
 
